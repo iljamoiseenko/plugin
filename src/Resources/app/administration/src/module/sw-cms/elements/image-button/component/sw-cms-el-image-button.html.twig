@@ -1,0 +1,12 @@
+{% block sw_cms_element_image_button %}
+
+        <div class="button-wrapper">
+            <a class="button-link" :href="element.config.url.value">
+                <div class="btn">
+                    <img class="btn-img" :src="mediaUrl">
+                    <div class="button-text">{{ element.config.buttonText.value }}</div>
+
+                </div>
+            </a>
+        </div>
+{% endblock %}
